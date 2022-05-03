@@ -1,0 +1,37 @@
+.sidehug{
+    display: flex;
+    margin-top: 2%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.content p{
+    color: rgb(94, 92, 92);
+    margin-bottom: 5%;
+}
+
+
+.book{
+    width: 200px;
+    padding: 2% 4%;
+    background-color: rgb(39, 31, 224);
+    border: none;
+    border: solid 2px rgb(39, 31, 224);
+    color: white;
+    font-family: 'poppins';
+    border-radius: 0 20px 20px 20px;
+    font-size: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.book:hover{
+    outline: none;
+    border: solid 2px rgb(39, 31, 224);
+    background: transparent;
+    color:rgb(39, 31, 224) ;
+}

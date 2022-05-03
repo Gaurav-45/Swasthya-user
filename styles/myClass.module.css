@@ -1,0 +1,57 @@
+.card{
+    border-radius: 15px;
+    overflow: hidden;
+    width: 400px;
+    height: 250px;
+    color: white;
+    position: relative;
+    margin-right: 20px;
+}
+
+.heading{
+    position: absolute;
+    top: 3%;
+    left: 7%;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.content{
+    z-index: 1;
+}
+
+.time{
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    font-size: 16px;
+}
+
+.vertical{
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    margin-top: -20px;
+    color: chartreuse;
+}
+
+.vertical p{
+    margin-left: 10px;
+    color: white;
+}
+
+.coach{
+    display: flex;
+    flex-flow: row;
+    align-items:center;
+    color: wheat;
+    margin-top: -25px;
+}
+
+.coach p{
+    margin-left: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}

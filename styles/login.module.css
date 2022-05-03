@@ -1,0 +1,138 @@
+.login{
+    display: flex;
+    margin: 15% 0%;
+}
+
+.container{
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.image{
+    margin-top: 10%;
+    width:110%;
+}
+
+.sidehug{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form{
+    width: 52%;
+    font-size: 18px;
+    padding: 30px 50px 50px 40px;
+    border-radius: 10px;
+    box-shadow: rgba(12, 12, 241, 0.2) 0px 7px 29px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signIn{
+    margin-left: -10%;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.3em;
+}
+
+.element input{
+    line-height: 35px;
+    border-radius: 5px;
+    border: solid 1px rgb(175, 171, 171);
+    font-size: 16px;
+    padding-left: 10px;
+}
+.element input:focus{
+    outline: none;
+    border: solid 2px rgb(39, 31, 224);
+}
+.element label{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: #ff3964;
+    border:solid 1px #ff3964 !important;
+    border: none;
+    color: white;
+    font-family: 'poppins';
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 7px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn:hover{
+  color: #ff3964;
+  background-color: white;
+  border:solid 1px #ff3964;
+}
+
+.heading{
+    color:#5956d6 ;
+    margin-bottom: 20px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+} 
+
+.subtitle{
+    text-align: center;
+}
+
+.subtitle a{
+    color: #ff3964;
+}
+
+.orDivider{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: rgb(175, 171, 171);
+    margin-top: 25px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.orDivider hr {
+    width: 40%;
+    height: 1px;
+    background-color: rgb(175, 171, 171);
+    border: none;
+    align-self: center;
+}
+
+.thirdParty{
+    display: flex;
+    flex-flow: column;
+    margin-bottom: -35px;
+}
+
+.authBtn{
+    font-family: 'poppins';
+    background: transparent;
+    border: none;
+    border: solid 2px #5956d6;
+    padding: 3% 5%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
